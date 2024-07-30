@@ -19,6 +19,7 @@ import com.example.writeitin.models.NoteModel
 class MainActivity : AppCompatActivity(), NoteListsRecyclerViewAdapter.OnItemClickListener {
 
 
+
     private lateinit var adapter : NoteListsRecyclerViewAdapter
     private lateinit var recycle : RecyclerView
 
